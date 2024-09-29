@@ -64,7 +64,7 @@ type(var1)# output: int
 type(var2)# output: string
 
 var1="change to string"
-type(var1)# output: string
+type(var1)# output: str
 ```
 
 # String basics
