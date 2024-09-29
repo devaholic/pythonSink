@@ -14,19 +14,6 @@
   </p>
 </div>
 
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-    </li>
-  </ol>
-</details>
-
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
@@ -35,6 +22,22 @@ This is project is about a starting point to Data Engineering. As first step is 
 Here's why:
 * I want to get into data engineering and data warehouse areas.
 * Learn another language that will be useful to y career
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Lessons</summary>
+  <ol>
+    <li>
+        [a relative link](lesson01-helloWorld/install.md)
+    </li>
+    <li>
+        [a relative link](lesson02-pythonBasics/pythonBasics.md)
+    </li>
+    <li>
+        [a relative link](lesson03-operators/operators.md)
+    </li>
+  </ol>
+</details>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
