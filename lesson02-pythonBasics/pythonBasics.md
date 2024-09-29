@@ -1,4 +1,74 @@
 # Learning objectives
+* Statement
+* Variables
+* String basics
+* Number basics
+* Error messages
+* Comments
 
-# Goal
-Create a file that prints below 
+# Statement
+Any instruction written in the source code and executed by the Python interpreter is called a statement.
+The Python language has many different types of statements like assignment statements, conditional statements,
+looping statements, etc., that help a programmer get the desired output.
+
+```python
+tep = float(input('What is the water temperature? '))
+if tep > 24:
+	print('Water is safe!')
+	print('Jump in!')
+else:
+	print('Better not go in!')
+# First line after if-else 
+```
+
+# Variables
+Variables allow programs to refer to values using names rather than memory locations. Ex: age refers to a person's age, 
+and birth refers to a person's date of birth.
+```python
+city = "Chicago"
+age = 2
+result = 4 + 4
+```
+## Naming Convention
+A variable name can consist of letters, digits, and underscores and be of any length. The name cannot start with a digit. 
+Ex: 101class is invalid. Also, letter case matters. Ex: Total is different from total. 
+Python's style guide recommends writing variable names in snake case, which is all lowercase with underscores in 
+between each word, such as first_name or total_price.
+<br>
+Python has reserved words, known as keywords, which have special functions and cannot be used as names for variables 
+(or other objects).
+
+| False  | await    | else    | import   | pass   |
+|--------|----------|---------|----------|--------|
+| None   | break    | except  | in       | raise  |
+| True   | class    | finally | is       | return |
+| and    | continue | for     | lambda   | try    |
+| as     | def      | from    | nonlocal | while  |
+| assert | del      | global  | not      | with   |
+| asynch | elif     | if      | or       | yield  |
+
+# String basics
+A string is a sequence of characters enclosed by matching single (') or double (") quotes. 
+* Ex: "Happy birthday!"
+* Ex: '21' are both strings.
+
+To include a single quote (') in a string, enclose the string with matching double quotes ("). 
+* Ex: "Won't this work?" To include a double quote ("), enclose the string with matching single quotes ('). 
+* Ex: 'They said "Try it!", so I did'.
+
+# Number basics
+Python supports two basic number formats, integer and floating-point. An integer represents a whole number, 
+and a floating-point format represents a decimal number.
+
+# Comments
+The # character should be followed by a single space. Ex: # End of menu is easier to read than #End of menu.
+
+# Exercise
+write a program that prints below:
+```text
+***************
+*             *
+*   WELCOME   *
+*             *
+***************
+```
