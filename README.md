@@ -28,13 +28,13 @@ Here's why:
   <summary>Lessons</summary>
   <ol>
     <li>
-        [a relative link](lesson01-helloWorld/install.md)
+        [Lesson 01 - Install Python](./lesson01-helloWorld/install.md)
     </li>
     <li>
-        [a relative link](lesson02-pythonBasics/pythonBasics.md)
+        [Lesson 02 - Python Basics](./lesson02-pythonBasics/pythonBasics.md)
     </li>
     <li>
-        [a relative link](lesson03-operators/operators.md)
+        [Lesson 03 - Operator](./lesson03-operators/operators.md)
     </li>
   </ol>
 </details>

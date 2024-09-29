@@ -22,13 +22,14 @@ else:
 ```
 
 # Variables
-Variables allow programs to refer to values using names rather than memory locations. Ex: age refers to a person's age, 
-and birth refers to a person's date of birth.
+Variables allow programs to refer to values using names rather than memory locations. 
+Ex: age refers to a person's age, and birth refers to a person's date of birth.
 ```python
 city = "Chicago"
 age = 2
 result = 4 + 4
 ```
+
 ## Naming Convention
 A variable name can consist of letters, digits, and underscores and be of any length. The name cannot start with a digit. 
 Ex: 101class is invalid. Also, letter case matters. Ex: Total is different from total. 
@@ -46,6 +47,25 @@ Python has reserved words, known as keywords, which have special functions and c
 | as     | def      | from    | nonlocal | while  |
 | assert | del      | global  | not      | with   |
 | asynch | elif     | if      | or       | yield  |
+
+## Types
+One of the best features of Python is its flexibility when it comes to handling various data types.
+<br>
+Python variables can hold various data types, including integers, floats, strings, booleans, tuples and lists.
+<br>
+Python is what is known as a dynamically-typed language. This means that the type of a variable can change during the 
+execution of a program. Another feature of dynamic typing is that it is not necessary to manually declare the type of 
+each variable, unlike other programming languages such as Java. You can use the type() function to determine the type of a variable. For instance:
+```python
+var1=23
+var2="text"
+
+type(var1)# output: int
+type(var2)# output: string
+
+var1="change to string"
+type(var1)# output: string
+```
 
 # String basics
 A string is a sequence of characters enclosed by matching single (') or double (") quotes. 
