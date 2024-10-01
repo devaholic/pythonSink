@@ -29,6 +29,16 @@ city = "Chicago"
 age = 2
 result = 4 + 4
 ```
+## NoneType
+The NoneType object is a special type in Python that represents the absence of a value. In other words, NoneType is the 
+type for the None object, which is an object that contains no value or defines a null value. It is used to indicate 
+that a variable or expression does not have a value or has an undefined value. “None” basically means the absence 
+of a value.
+```python
+value = None
+
+print(value) # Output: None
+```
 
 ## Naming Convention
 A variable name can consist of letters, digits, and underscores and be of any length. The name cannot start with a digit. 
