@@ -5,6 +5,7 @@ A function can return data as a result.  On this lesson, we will go through:
 * Variable scope 
 * Parameters and Arguments 
 * Return values
+* Recursion
 
 # Definition
 A function is defined using the def keyword. The first line contains def followed by the function name (in snake case), 
@@ -168,4 +169,17 @@ num_1 = 6
 num_2 = 3
 result = print_div(num_1, num_2)
 print(result)
+```
+
+# Recursion
+Recursion enables a piece of code, a function, to call the same piece of code, the same function, with different parameters.
+```python
+def factorial(x):
+    if x == 1:
+        return 1
+    else:
+        return x * factorial(x - 1)
+
+num = 3
+print("The factorial of", num, "is", factorial(num))
 ```
